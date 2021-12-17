@@ -27,15 +27,15 @@ function Table({ data, title }) {
                             data.map((element) => (
                                 <tr>
                                     <th scope="row">{element["Job No."]}</th>
-                                    <td>{element["Type"]}</td>
-                                    <td>{element["Move Date"]}</td>
-                                    <td>{element["Time"]}</td>
-                                    <td>{element["1st Available Delivery"]}</td>
-                                    <td>{element["Moving From"]}</td>
-                                    <td>{element["Moving To"]}</td>
-                                    <td>{element["CF / Lbs"]}</td>
-                                    <td>{element["Miles"]}</td>
-                                    <td>{element["Estimate"]}</td>
+                                    <td>{element["type"]}</td>
+                                    <td>{element["moveDate"]}</td>
+                                    <td>{element["time"]}</td>
+                                    <td>{element["availableDelivery"]}</td>
+                                    <td>{element["movingFrom"]}</td>
+                                    <td>{element["movingTo"]}</td>
+                                    <td>{element["cfLbs"]}</td>
+                                    <td>{element["miles"]}</td>
+                                    <td>{element["estimate"]}</td>
                                 </tr>
                             ))
                         ) : (
