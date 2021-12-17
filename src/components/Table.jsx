@@ -26,7 +26,7 @@ function Table({ data, title }) {
                         {Array.isArray(data) && data.length > 0 ? (
                             data.map((element) => (
                                 <tr>
-                                    <th scope="row">{element["Job No."]}</th>
+                                    <th scope="row">{element["jobNo"]}</th>
                                     <td>{element["type"]}</td>
                                     <td>{element["moveDate"]}</td>
                                     <td>{element["time"]}</td>
